@@ -1,0 +1,1 @@
+Saved process/chat section. To restore: insert process.html inside .folio-world before the footer. Current sections.css retains the required styles. process-styles-snapshot.css is a backup of the styles at removal time; do not load it in addition to sections.css. No section-specific JavaScript is required. The shared app.js handles reveal animation.
