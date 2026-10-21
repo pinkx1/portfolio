@@ -1,0 +1,22 @@
+@font-face{font-family:"PT Sans";src:url("assets/PT_Sans-Web-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"PT Sans";src:url("assets/PT_Sans-Web-Italic.ttf") format("truetype");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"PT Sans";src:url("assets/PT_Sans-Web-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"PT Sans";src:url("assets/PT_Sans-Web-BoldItalic.ttf") format("truetype");font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:"PT Serif";src:url("assets/PT_Serif-Web-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"PT Serif";src:url("assets/PT_Serif-Web-Italic.ttf") format("truetype");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"PT Serif";src:url("assets/PT_Serif-Web-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"PT Serif";src:url("assets/PT_Serif-Web-BoldItalic.ttf") format("truetype");font-weight:700;font-style:italic;font-display:swap}
+
+:root{--mono:"PT Sans",Arial,sans-serif}
+body,button,input,textarea,select{font-family:"PT Sans",Arial,sans-serif}
+h1,h2,h3,h4,h5,h6,.folio-wordmark{font-family:"PT Serif",Georgia,serif!important;font-weight:700}
+.hero h1{font-size:clamp(40px,7.3vw,104px);font-weight:700;letter-spacing:0;line-height:1.12}
+.hero .hero-hello{font-family:"PT Serif",Georgia,serif;font-style:italic;font-weight:400}
+.folio-world .about-introduction h2{font-size:clamp(28px,3.6vw,48px);letter-spacing:-.035em}
+.folio-wordmark{font-size:clamp(34px,8vw,110px);letter-spacing:-.04em}
+@media(max-width:600px){
+ .hero h1{font-size:6.8vw;line-height:1.25}
+ .hero .hero-hello{font-size:23px}
+ .folio-world .about-introduction h2{font-size:7.5vw}
+ .folio-wordmark{font-size:7.8vw}
+}
