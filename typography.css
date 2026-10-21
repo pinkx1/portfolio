@@ -31,3 +31,18 @@ h1,h2,h3,h4,h5,h6,.folio-wordmark{font-family:"PT Serif",Georgia,serif!important
 @media(max-width:1100px){.header{gap:12px}.header .nav a{font-size:14px;padding-inline:12px}.header .status,.header .identity{font-size:12px}}
 @media(max-width:600px){.header{column-gap:8px}.header .status{font-size:12px;padding:9px 10px}.header .identity{font-size:11px;padding:9px 10px;gap:5px}.header .nav a{font-size:16px;padding:12px 18px}.header .menu-toggle{font-size:14px}}
 @media(max-width:360px){.header .status,.header .identity{font-size:10.5px;padding-inline:8px}}
+
+/* Larger controls and readable supporting copy below the hero. */
+.header .nav .nav-contact:hover,.header .nav .nav-contact:focus-visible{color:#fff}
+.folio-world .about-say-hi,.folio-world .folio-cta,.folio-world .folio-footer .folio-cta{min-height:52px;padding:15px 25px;font-size:16px;line-height:20px}
+.folio-world .about-story p{font-size:18px;line-height:1.7}
+.folio-world .about-lead{font-size:25px;line-height:1.4}
+.work-caption h3{font-size:24px;line-height:1.2}
+.work-tags span{font-size:13px;line-height:1.4;padding:5px 10px;color:#000}
+.work-label{font-size:14px;top:-31px}
+.work-open,.work-arrows button,.folio-world .folio-top{width:50px;height:50px}
+.work-open svg,.work-arrows svg,.folio-top svg{width:20px;height:20px}
+.folio-footer .folio-file,.folio-footer .folio-tab,.folio-footer-bottom{font-size:14px;color:#000}
+.folio-footer-grid p{font-size:15px;color:#000}
+.folio-footer-grid>div>a:not(.folio-cta):not(.folio-footer-email){font-size:17px;line-height:1.5;padding-block:5px}
+@media(max-width:600px){.folio-world .about-story p{font-size:17px}.folio-world .about-lead{font-size:23px}.work-caption h3{font-size:22px}.work-tags span{font-size:12px}.folio-footer-email{font-size:23px}}
