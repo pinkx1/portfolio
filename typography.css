@@ -46,3 +46,8 @@ h1,h2,h3,h4,h5,h6,.folio-wordmark{font-family:"PT Serif",Georgia,serif!important
 .folio-footer-grid p{font-size:15px;color:#000}
 .folio-footer-grid>div>a:not(.folio-cta):not(.folio-footer-email){font-size:17px;line-height:1.5;padding-block:5px}
 @media(max-width:600px){.folio-world .about-story p{font-size:17px}.folio-world .about-lead{font-size:23px}.work-caption h3{font-size:22px}.work-tags span{font-size:12px}.folio-footer-email{font-size:23px}}
+
+/* Compact contact footer without promotional headings. */
+.folio-footer .folio-footer-email{margin-top:0}
+.folio-footer .folio-footer-grid{padding-bottom:30px;align-items:start}
+.folio-footer-grid>div>a:not(.folio-cta):not(.folio-footer-email):first-child{margin-top:0}
